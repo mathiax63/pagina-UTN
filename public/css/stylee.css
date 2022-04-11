@@ -16,6 +16,13 @@ h1{
     color: rgb(0, 255, 255, 0.651);
     font-size: 50px;
     font-family: 'Playfair Display', serif;
+    border-radius: 0px 200px 200px 10px;
+    -webkit-border-radius: 0px 200px 200px 10px;
+    -moz-border-radius: 0px 200px 200px 10px;
+    background-color: #158cba;
+    width: 20%;
+    padding: 10px;
+    
 }
 header{
     background-color: rgb(42, 99, 99);
