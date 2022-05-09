@@ -116,6 +116,7 @@ footer{
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    width: 50%;
 }
 h3{
     display: flex;
@@ -130,4 +131,9 @@ article{
 }
 .pDeFooter{
     margin: 5px;
+}
+.DivFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
