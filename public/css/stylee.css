@@ -28,7 +28,7 @@ header{
     background-color: rgb(42, 99, 99);
     margin: 30px;
     padding: 10px;
-    width: 90%;
+    
 }
 li{
     border: 1px solid black;
@@ -40,8 +40,11 @@ li{
 }
 form{
     text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
     
 }
+
 .pDelForm{
     border-radius: 10px;
     
@@ -61,7 +64,7 @@ label {
  
 input {
     border-radius: 10px;
-    height: 13px;
+    height: 20px;
     padding: 0;
     margin:0;
     vertical-align: bottom;
@@ -72,8 +75,7 @@ input {
 }
 .carrusel{
 
-    align-items: center;
-    width: 90%; 
+    align-items: center; 
     margin: 30px;
     justify-content: space-around;
 }
@@ -101,9 +103,31 @@ input {
 }
 .Destacados-Y-Novedades-General{
     margin: 30px;
-    width: 90%;
 
 }
 .card-img, .card-img-top{
     height: 60%;
+}
+footer{
+    margin: 10px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.pDeFooter{
+    margin: 5px;
 }
