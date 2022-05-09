@@ -25,37 +25,204 @@
         </ul></nav>
 
     </header>
-    <main></main>
-
-
-    <footer>
-        <h3>Contactos</h3>
-        <div class="contact">
-            <section>
-
-                <article>
-                    <p class="pDeFooter"> Email : PeliMax@hotmai.com</p>
-                </article>
-                <article>
-                    <p class="pDeFooter">Numero De Telefono : 23456122</p>
-                </article>
-                <article><i class="fa-brands fa-instagram" style="line-height: 2; color: rgb(219, 149, 221);"></i>
-                    <p class="pDeFooter">Instagram : PeliMax007</p>
-                </article>
-                <article><i class="fa-brands fa-facebook-square" style="line-height: 2; color: blue;"></i>
-                    <p class="pDeFooter">facebook : PeliMax</p>
-                </article>
-                <article><i class="fa-brands fa-twitter" style="line-height: 2; color: rgb(84, 184, 230);"></i>
-                    <p>Twitter : PeliMaxima</p>
-                </article>
-            </section>
 
 
 
+
+
+    <main class="MainDeProduct">
+        <form action="/filtro" method="POST" class="filtroDePeñiculas">
+            <div class="todosLosFiltros">
+
+            <div class="filtroDeTodasLasPeliculas">
+                <h4>Genero</h4>
+                <label for="linea" >
+                    <input type="checkbox" name="linea" value="Terror">Terror</label>
+                <label for="linea" >
+                    <input type="checkbox" name="linea" value="Accion">Accion</label>
+                <label for="linea" >
+                    <input type="checkbox" name="linea" value="Aventura">Aventura</label>           
+                <label for="1" >
+                    <input type="checkbox" name="color" value="Familyar">Familyar</label>
+                <label for="2">
+                    <input type="checkbox" name="color" value="Ficcion">Ficcion</label>
+                <label for="3">
+                    <input type="checkbox" name="Historica" value="Historica">Historica </label>
+                <label for="4" ><input type="checkbox" name="color" value="Misterio" >Misterio</label>
+                <label for="1a" >
+                    <input type="checkbox" name="tipo" value="Musical">Musical</label>
+                <label for="1b" >
+                    <input type="checkbox" name="tipo" value="Suspenso">Suspenso </label>
+            </div>
+            <div class="filtroDeTodasLasPeliculas">
+                <h4>Calificacion</h4>
+                <label for="linea" >
+                    <input type="checkbox" name="linea" value="1 Estrella">1 Estrella</label>
+                <label for="linea" >
+                    <input type="checkbox" name="linea" value="2 Estrella">2 Estrella</label>
+                <label for="linea" >
+                    <input type="checkbox" name="linea" value="3 Estrella">3 Estrella</label>           
+                <label for="1" >
+                    <input type="checkbox" name="color" value="4 Estrella" id="1">4 Estrella</label>
+                    <label for="2">
+                    <input type="checkbox" name="color" value="5 Estrella" id="1">5 Estrella</label>
+            </div>
         </div>
 
 
-    </footer>
+            
+            
+            <div class="botones">
+
+            <div class="botFiltros">
+                <button>Aplicar filtros</button>
+            </div>
+            <div class="botFiltros">
+                <button>Borrar filtros</button>
+            </div>
+        </div>
+        </form>
+
+
+
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/Avatar 2.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Avatar 2</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/El_hombre_del_norte-710039658-large.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">El hombre del norte</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/encantowebp.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Encanto</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/PorqueSoyBatman.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Batman</h5>
+                </div>
+              </div>
+            </div>
+         
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/portada-para-la-caratula-de-el-hobbit-un-viaje-inesperado-original.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">El hobbit</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/Rapido y furioso.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rapido y furioso</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/spidermanNWH.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Spiderman no way home</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/Uncharted-pelicula.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Uncharted</h5>
+                </div>
+              </div>
+            </div>     
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/venom.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Venom</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/proyecto rampage.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto rampage</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/doctor strange in the multiverse of madness.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Doctor strange in the multiverse of madness</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="../public/img/el 50 puntos para grifindor.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Animales fantásticos: los secretos de dumbledore</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="DivFooter">
+          <div class="contact">
+        <h3>Quienes somos</h3>
+        <p>Somos una pagina que recopila peliculas para que pueda obtener mas informacion de las mismas tanto en critica como en donde ouede verlas</p>
+        </div>
+        <div class="contact">
+          <h3>Contactos</h3>
+          <section>
+            <article>
+              <p class="pDeFooter"> Email : PeliMax@hotmai.com</p>
+            </article>
+            <article>
+              <p class="pDeFooter">Numero De Telefono : 23456122</p>
+            </article>
+            <article><i class="fa-brands fa-instagram" style="line-height: 2; color: rgb(219, 149, 221);"></i>
+              <p class="pDeFooter">Instagram : PeliMax007</p>
+            </article>
+            <article><i class="fa-brands fa-facebook-square" style="line-height: 2; color: blue;"></i>
+              <p class="pDeFooter">facebook : PeliMax</p>
+            </article>
+            <article><i class="fa-brands fa-twitter" style="line-height: 2; color: rgb(84, 184, 230);"></i>
+              <p>Twitter : PeliMaxima</p>
+            </article>
+          </section>
+    
+    
+    
+        </div>
+    </div>
+    
+      </footer>
     
 </body>
 </html>
