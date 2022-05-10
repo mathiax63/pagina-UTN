@@ -30,6 +30,9 @@ header{
     padding: 10px;
     
 }
+.headerIndex{
+    margin-bottom: 0px;
+}
 li{
     border: 1px solid black;
     border-radius: 10px;
@@ -56,6 +59,9 @@ main{
     margin-top: 60px;
     
 }
+.mainIndex{
+    margin: 0px;
+}
 label {
     display: block;
     text-indent: -15px;
@@ -78,11 +84,11 @@ input {
 .carrusel{
 
     align-items: center; 
-    margin: 30px;
+    margin: 0px 30px;
     justify-content: space-around;
 }
 .w-100{
-    height: 700px;
+    height: 300px;
 }
 .carousel-indicators{
     display: none;
@@ -105,10 +111,12 @@ input {
 }
 .Destacados-Y-Novedades-General{
     margin: 30px;
-
+    width: 100%;
 }
-.card-img, .card-img-top{
-    height: 60%;
+.ImgCard{
+    height: 50%;
+    margin-bottom: -40%;
+
 }
 footer{
     margin: 30px;
@@ -144,9 +152,26 @@ article{
 }
 .MainDeProduct{
     margin: 50px;
+    width: 100%;
+}
+.card-deck{
+   width: 100%;
+   justify-content: space-evenly;
+}
+.card-deck .card{
+    flex: none;
+    width: 15%;
+    height: 900px;
+}
+.card{
+    flex: none;
+    width: 100%;
+    margin: 5px 20px;
+    height: 300px;
+    width: 20%;
 }
 .card-img, .card-img-top{
-    height: 700px;
+    height: 75%;
 }
 .filtroDeTodasLasPeliculas{
     display: flex;
@@ -178,6 +203,7 @@ input[type=checkbox], input[type=radio]{
     
 }
 .botones{
+    width: 50%;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -201,4 +227,8 @@ text-align: center;
 align-items: center;
 max-width: 600px;
     margin-left: 35%
+}
+.row{
+    width: 100%;
+    justify-content: space-evenly;
 }
