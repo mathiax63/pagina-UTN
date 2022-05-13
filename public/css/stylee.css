@@ -236,5 +236,7 @@ max-width: 600px;
 }
 .h5, h5 {
     color: black;
+}
+.h5Carussel{
     font-size: 30px;
 }
