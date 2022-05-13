@@ -88,14 +88,16 @@ input {
     justify-content: space-around;
 }
 .w-100{
-    height: 300px;
+    height: 360px;
+    opacity: 0.8;
 }
 .carousel-indicators{
     display: none;
 }
 .PCarrusel{
-    color:rgb(231, 232, 233);
-    font-size: 15px;
+    color:black;
+    font-size: 19px;
+    font-weight:600
 }
 
 .DYN{
@@ -231,4 +233,8 @@ max-width: 600px;
 .row{
     width: 100%;
     justify-content: space-evenly;
+}
+.h5, h5 {
+    color: black;
+    font-size: 30px;
 }
