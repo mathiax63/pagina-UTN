@@ -41,12 +41,7 @@ li{
     margin: 5px 10px;
     background-color: rgba(0, 255, 255, 0.651);
 }
-form{
-    width: 100%;
-    margin: 10px;
-    margin-bottom: 50px;
-    
-}
+
 
 .pDelForm{
     border-radius: 10px;
@@ -62,7 +57,7 @@ main{
 .mainIndex{
     margin: 0px;
 }
-label {
+.labelDeLogin {
     display: block;
     text-indent: -15px;
 }
@@ -223,6 +218,9 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 50px;
 }
 .btn-btn-primary{
 text-align: center;
@@ -240,3 +238,112 @@ max-width: 600px;
 .h5Carussel{
     font-size: 30px;
 }
+a{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+a:hover{
+    text-decoration: none;
+}
+.aDeMenu{
+    width: 20%;
+    text-align: center;
+}
+label{
+     color:grey;
+    }
+    input[
+        type = "radio"
+        ]
+        { 
+            display:none;
+        }
+        .clasificacion{
+            padding: 5px;
+            border: #158cba solid 1px;
+            margin: 0px;
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            border-radius: 5px;
+        }
+
+
+
+        .productoDetalle{
+            display: flex;
+            flex-direction: column;
+        }
+        .imgDeDetail{
+            text-align: center;
+        }
+        .datosDetail{
+            margin: 10px;
+        }
+        .formDetail{
+            display: block;
+        }
+        #form p {
+            text-align: center;
+          }
+          .pDeDetail{
+              display: flex;
+              padding: 5px;
+              margin-top: 10px;
+              border: #158cba solid 1px;
+              border-radius: 5px;
+              width: 100%;
+          }
+          .pDeDetailInferior{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            margin-top: 10px;
+          }
+          h6{
+              margin-right: 15px;
+          }
+          .pDeDetailP{
+              border: #158cba solid 1px;
+              padding: 10px;
+              border-radius: 5px;
+
+          }
+          .lableDeDitail{
+              margin: 0px;
+              
+          }
+          .inputDeAllProduct{
+              margin: 0px;
+          }
+          input[type=checkbox], input[type=radio]{
+              margin: 0px;
+          }
+          .filtroDeTodasLasPeliculas{
+
+            width: 50%;
+          }
+
+
+
+
+
+          /*@media (max-width: 1024px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+          }*/
