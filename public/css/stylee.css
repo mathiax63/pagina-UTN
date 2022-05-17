@@ -165,7 +165,7 @@ article{
 .card{
     flex: none;
     width: 100%;
-    margin: 5px 20px;
+    margin: 20px 20px;
     height: 300px;
     width: 20%;
 }
@@ -325,6 +325,36 @@ label{
 
             width: 50%;
           }
+          .video{
+              text-align: center;
+          }
+          .imgDeImgDetail{
+              display: flex;
+              justify-content: space-evenly;
+              width: 100%;
+              border: none;
+          }
+          .card1{
+            flex: none;
+            width: 100%;
+            margin: 5px 20px;
+            height: 100%; 
+            width: 20%;
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            border-radius: 0.25rem;
+          }
+          .imgDeDetail{
+              height: 300px;
+              width: 100%;
+              margin-top: 10px;
+          }
+        
 
 
 
