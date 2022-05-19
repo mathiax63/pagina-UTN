@@ -118,6 +118,7 @@ input {
 }
 footer{
     margin: 30px;
+    padding: 20px;
     background-color: #1d93c2;
 }
 .contact{
@@ -354,7 +355,27 @@ label{
               width: 100%;
               margin-top: 10px;
           }
-        
+        .divPedirPeliculas{
+            margin-bottom: 5px;
+            display: block;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+        .labelDePedirPelicula{
+            color: black;
+            margin-bottom: auto;
+            min-width: 15%;
+            width: 100%;
+        }
+        .formPP{
+            margin-right: 25px;
+
+        }
+        .inputPedirPeli{
+            width: 100%;
+            background-color: white;
+
+        }
 
 
 
